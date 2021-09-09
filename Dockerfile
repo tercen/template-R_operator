@@ -11,7 +11,7 @@ RUN git clone https://github.com/tercen/mean_operator
 
 WORKDIR /operator/mean_operator
 
-RUN echo 0.12.0-R4 && git pull
+RUN echo 0.12.0-R4-2 && git pull
 RUN git checkout 0.12.0-R4
 
 RUN R  --vanilla -e "renv::restore(confirm=FALSE)"
