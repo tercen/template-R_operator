@@ -19,7 +19,7 @@ RUN apt-get install -y tzdata gpg-agent && \
     add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -sc)-cran40/" && \
     apt-get install -y --no-install-recommends r-base git
 
-ENV RENV_VERSION 0.9.2
+ENV RENV_VERSION 0.13.0
 RUN R -e "install.packages('remotes', repos = c(CRAN = 'https://cran.r-project.org'))"
 RUN R -e "remotes::install_github('rstudio/renv@${RENV_VERSION}')"
 
@@ -29,8 +29,8 @@ RUN git clone https://github.com/tercen/mean_operator
 
 WORKDIR /operator/mean_operator
 
-RUN echo 0.12.0 && git pull
-RUN git checkout 0.12.0
+RUN echo 0.12.0-R4 && git pull
+RUN git checkout 0.12.0-R4
 
 RUN R  --vanilla -e "renv::restore(confirm=FALSE)"
 

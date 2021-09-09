@@ -1,9 +1,9 @@
 {
-  "name": "simple_docker_operator",
+  "name": "simple docker operator",
   "description": "simple docker operator",
   "tags": [""],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/simple_docker_operator"],
-  "container": "tercen/simple_docker_oprator:0.0.0",
+  "container": "tercen/simple_docker_operator:0.12.0-R4",
   "properties": [  ]
 }
