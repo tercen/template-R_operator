@@ -2,7 +2,7 @@
 # build
 
 ```shell
-VERSION=0.12.0-R4
+VERSION=0.12.0-R4-1
 docker build -t tercen/simple_docker_operator:$VERSION .
 docker push tercen/simple_docker_operator:$VERSION
 git add -A && git commit -m "$VERSION" && git tag -a $VERSION -m "++" && git push && git push --tags
