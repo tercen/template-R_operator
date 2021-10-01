@@ -47,7 +47,7 @@ jobs:
       run: docker pull tercen/tercenctl:release
     - name: Install operator
       run: |
-        docker run -it --rm \
+        docker run --rm \
           -e TERCEN_USERNAME=${{ secrets.TERCEN_TEST_OPERATOR_USERNAME }} \
           -e TERCEN_USERNAME=${{ secrets.TERCEN_TEST_OPERATOR_PASSWORD }} \
           -e TERCEN_URI=${{ secrets.TERCEN_TEST_OPERATOR_URI }} \
