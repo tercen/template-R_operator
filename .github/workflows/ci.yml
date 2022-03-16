@@ -30,6 +30,9 @@ jobs:
         echo "DOCKER_IMAGE=tercen/${{ github.event.repository.name }}" >> $GITHUB_ENV
         echo "DOCKER_IMAGE_FULL=tercen/${{ github.event.repository.name }}:latest" >> $GITHUB_ENV
         echo "OPERATOR_DOCKER_IMAGE=$(jq '.container' operator.json)" >> $GITHUB_ENV
+    - name: ECHO GITHUB_ENV
+      run: |
+        echo "GITHUB_ENV=$GITHUB_ENV"
     - name: Build docker image
       run: |
         docker build -t $DOCKER_IMAGE:$TAG .
