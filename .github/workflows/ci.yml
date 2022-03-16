@@ -21,6 +21,18 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+    - name: REPO_NAME
+      run: |
+        echo ::set-env name=REPO_NAME::${{ github.event.repository.name }}
+    - name: Build docker image
+      run: |
+        docker build -t tercen/$REPO_NAME:latest .
+    - name: docker login
+      run: |
+        docker login --username ${{ secrets.DOCKER_HUB_USERNAME }} --password ${{ secrets.DOCKER_HUB_PASSWORD }}
+    - name: docker push
+      run: |
+        docker push tercen/$REPO_NAME:latest
     - name: Pull tercenctl
       run: docker pull tercen/tercenctl:release
     - name: Install operator
