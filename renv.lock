@@ -1,30 +1,30 @@
 {
   "R": {
-    "Version": "4.0.3",
+    "Version": "4.0.4",
     "Repositories": [
       {
         "Name": "TERCEN",
-        "URL": "http://172.17.0.1:5400/api/v1/rlib/tercen"
+        "URL": "https://cran.tercen.com/api/v1/rlib/tercen"
       },
       {
         "Name": "CRAN",
-        "URL": "http://172.17.0.1:5400/api/v1/rlib/CRAN"
+        "URL": "https://cran.tercen.com/api/v1/rlib/CRAN"
       },
       {
         "Name": "BioCsoft",
-        "URL": "http://172.17.0.1:5400/api/v1/rlib/BioCsoft-3.12"
+        "URL": "https://cran.tercen.com/api/v1/rlib/BioCsoft-3.12"
       },
       {
         "Name": "BioCann",
-        "URL": "http://172.17.0.1:5400/api/v1/rlib/BioCann-3.12"
+        "URL": "https://cran.tercen.com/api/v1/rlib/BioCann-3.12"
       },
       {
         "Name": "BioCexp",
-        "URL": "http://172.17.0.1:5400/api/v1/rlib/BioCexp-3.12"
+        "URL": "https://cran.tercen.com/api/v1/rlib/BioCexp-3.12"
       },
       {
         "Name": "BioCworkflows",
-        "URL": "http://172.17.0.1:5400/api/v1/rlib/BioCworkflows-3.12"
+        "URL": "https://cran.tercen.com/api/v1/rlib/BioCworkflows-3.12"
       }
     ]
   },
@@ -52,10 +52,10 @@
     },
     "cli": {
       "Package": "cli",
-      "Version": "2.3.0",
+      "Version": "2.3.1",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "26fb4f0871c8e5b84d77f6dc22f2ee0a"
+      "Hash": "3e3f28efcadfda442cd18651fbcbbecf"
     },
     "crayon": {
       "Package": "crayon",
@@ -136,10 +136,10 @@
     },
     "pillar": {
       "Package": "pillar",
-      "Version": "1.4.7",
+      "Version": "1.5.0",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "3b3dd89b2ee115a8b54e93a34cd546b4"
+      "Hash": "39a778e4e487ded8b1bf5bb617c567b3"
     },
     "pkgconfig": {
       "Package": "pkgconfig",
@@ -157,10 +157,10 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.13.0",
+      "Version": "0.13.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9f10d9db5b50400c348920c5c603385e"
+      "Hash": "079cb1f03ff972b30401ed05623cbe92"
     },
     "rlang": {
       "Package": "rlang",
@@ -192,10 +192,10 @@
     },
     "tibble": {
       "Package": "tibble",
-      "Version": "3.0.6",
+      "Version": "3.1.0",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "9c6c10e594f32096ede0c7d373ccbddd"
+      "Hash": "4d894a114dbd4ecafeda5074e7c538e6"
     },
     "tidyselect": {
       "Package": "tidyselect",
