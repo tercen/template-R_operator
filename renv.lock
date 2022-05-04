@@ -234,16 +234,16 @@
     },
     "tercen": {
       "Package": "tercen",
-      "Version": "0.12.4",
+      "Version": "0.12.5",
       "Source": "GitHub",
       "Remotes": "tercen/tercenApi@0.12.2",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "teRcen",
       "RemoteUsername": "tercen",
-      "RemoteRef": "0.12.4",
-      "RemoteSha": "3484a19e086c9e395346437499ad57a24a6033a0",
-      "Hash": "9c631c78e4246687aa0aa14a7ed8fb6e"
+      "RemoteRef": "0.12.5",
+      "RemoteSha": "884ef2ebb4cded2d52a55b84ec724c26bf2def03",
+      "Hash": "10fb7414e6c0d2d6535121d8935d1cf8"
     },
     "tercenApi": {
       "Package": "tercenApi",
