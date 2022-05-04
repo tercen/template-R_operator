@@ -235,8 +235,8 @@
       "RemoteRepo": "teRcen",
       "RemoteUsername": "tercen",
       "RemoteRef": "HEAD",
-      "RemoteSha": "cd7a66b6f307f4b03d82d3cf65d37a4c31a575ac",
-      "Hash": "2797b91bc53345ef21f6d1ba74510ab7"
+      "RemoteSha": "5c9824687887352d9c93e63ea687015ebe9d9b89",
+      "Hash": "563d40aa037f136dc1d4c00d00b2a19b"
     },
     "tercenApi": {
       "Package": "tercenApi",
