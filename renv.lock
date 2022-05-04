@@ -57,6 +57,13 @@
       "Repository": "RSPM",
       "Hash": "3e3f28efcadfda442cd18651fbcbbecf"
     },
+    "codetools": {
+      "Package": "codetools",
+      "Version": "0.2-18",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "019388fc48e48b3da0d3a76ff94608a8"
+    },
     "crayon": {
       "Package": "crayon",
       "Version": "1.4.1",
@@ -66,10 +73,10 @@
     },
     "digest": {
       "Package": "digest",
-      "Version": "0.6.29",
+      "Version": "0.6.27",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "cf6b206a045a684728c3267ef7596190"
+      "Repository": "RSPM",
+      "Hash": "a0cbe758a531d054b537d16dff4d58a1"
     },
     "dplyr": {
       "Package": "dplyr",
@@ -94,10 +101,10 @@
     },
     "future": {
       "Package": "future",
-      "Version": "1.24.0",
+      "Version": "1.25.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "5cc7addaa73372fbee0a7d06c880068e"
+      "Hash": "877024e372cf61e41f5d13eafd8d4bac"
     },
     "future.apply": {
       "Package": "future.apply",
@@ -164,10 +171,10 @@
     },
     "parallelly": {
       "Package": "parallelly",
-      "Version": "1.30.0",
+      "Version": "1.31.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "67db13907a9cea89c118cf82d448799f"
+      "Hash": "115faaa1a50897c3e2339d1cb7d3d493"
     },
     "pillar": {
       "Package": "pillar",
@@ -227,16 +234,16 @@
     },
     "tercen": {
       "Package": "tercen",
-      "Version": "0.12.0",
+      "Version": "0.12.4",
       "Source": "GitHub",
-      "Remotes": "tercen/tercenApi@0.11.0",
+      "Remotes": "tercen/tercenApi@0.12.2",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "teRcen",
       "RemoteUsername": "tercen",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "5c9824687887352d9c93e63ea687015ebe9d9b89",
-      "Hash": "563d40aa037f136dc1d4c00d00b2a19b"
+      "RemoteRef": "0.12.4",
+      "RemoteSha": "3484a19e086c9e395346437499ad57a24a6033a0",
+      "Hash": "9c631c78e4246687aa0aa14a7ed8fb6e"
     },
     "tercenApi": {
       "Package": "tercenApi",
@@ -247,8 +254,8 @@
       "RemoteRepo": "teRcenApi",
       "RemoteUsername": "tercen",
       "RemoteRef": "HEAD",
-      "RemoteSha": "3b7f261f459370ea096ebb3d2be4ecad76934216",
-      "Hash": "5b9ac78c0ecb7aff0ac79a23b76445b6"
+      "RemoteSha": "7f1274676d90681341833c289688e80f45c2638f",
+      "Hash": "4cae4831bfaadb584e4c2fcc80f53768"
     },
     "tibble": {
       "Package": "tibble",
