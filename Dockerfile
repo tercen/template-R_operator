@@ -1,4 +1,4 @@
-FROM tercen/runtime-r40:4.0.4-4
+FROM tercen/runtime-r42:4.2.2-2
 
 ENV RENV_VERSION 0.13.0
 RUN R -e "install.packages('remotes', repos = c(CRAN = 'https://cran.r-project.org'))"
