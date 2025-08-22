@@ -1,7 +1,7 @@
 // Tercen Operator Runtime development container specification.
 {
 	"name": "Tercen Operator Runtime",
-  	"image": "tercen/runtime-r44:4.4.3-7",
+  	"image": "tercen/runtime-r44:4.4.3-8",
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
