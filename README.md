@@ -1,25 +1,23 @@
-# Template R operator
+# Template R Operator
 
-The `Template R operator` is a template repository for the creation of R operators in Tercen. An overview of steps for developing an operator are:
+The `Template R Operator` is a template repository for the creation of R operators in Tercen. An overview of steps for developing an operator are:
 
-1. create a github repo
-2. install tercen_studio
-3. login to tercen_studio
-4. git clone the newly created repo
-5. start developing in R in tercen_studio
-6. add R packages to the repo
-7. push to the github repo
-8. go to tercen and install the operator
+1. Create a new GitHub repository using this template
+2. Clone the newly created repository to your development environment (we recommend using VS Code)
+3. Describe your operator specifications in the README file
+4. Develop the operator (with or without assistance from the Tercen Agents)
+5. Initialise or update the R packages environment using `renv`.
+6. Push your changes and install the operator in Tercen
 
-More information can be found in [Tercen developer's guide](https://tercen.github.io/developers_guide/).
+Detailed information can be found in the [Tercen developer's guide](https://tercen.github.io/developers_guide/).
 
-Below is the operator README standard structure:
+Below is the operator README standard structure.
 
-##### Description
+### Description
 
 The `Template R operator` is a template repository for the creation of R operators in Tercen.
 
-##### Usage
+### Usage
 
 Input|.
 ---|---
@@ -39,6 +37,6 @@ Output|.
 `output_var`        | output relation
 `Operator view`        | view of the Shiny application
 
-##### Details
+### Details
 
 Details on the computation.
