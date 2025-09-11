@@ -25,3 +25,5 @@ your_operator_repository/
     ├── test.json
     └── README.md
 ```
+
+Make sure the tercenCtx() call in the main script has no arguments (arguments are added during development only to connect to a specific data step) before publishing the operator.
